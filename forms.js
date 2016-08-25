@@ -60,13 +60,13 @@ $(document).ready(function() {
       $('.totalSalary').append(newTotal);
       $(this).parent().remove();
       
-      console.log(totalPrice[0]);
-      console.log($(this).data("salary"));
-      console.log(newTotal);
-      console.log(typeof totalPrice);
-      console.log('total price',totalPrice);
-      console.log('total price', totalPrice[0]);
-      console.log(typeof personPrice);
+      // console.log(totalPrice[0]);
+      // console.log($(this).data("salary"));
+      // console.log(newTotal);
+      // console.log(typeof totalPrice);
+      // console.log('total price',totalPrice);
+      // console.log('total price', totalPrice[0]);
+      // console.log(typeof personPrice);
       totalSal();
     });
 

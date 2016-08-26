@@ -36,7 +36,7 @@
       <h2>Container</h2>
       <div ng-repeat="employee in employees">
         <p>First Name: {{employee.firstname}} Last Name: {{employee.lastname}} ID : {{employee.id}} Jobtitle: {{employee.jobtitle}} Salary: {{employee.salary}}</p>
-        <button ng-click="DeleteInfo()" >Delete</button>
+        <button ng-click="DeleteInfo(employee)" >Delete</button>
       </div>
 
     </div>
